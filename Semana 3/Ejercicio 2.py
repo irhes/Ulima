@@ -11,7 +11,17 @@ def main():
 
     if b == 0:
         print("No se puede dividir entre 0")
+    
     else:
-        print("El resultado es:", a / b)
+        division = a / b
+        print(f"La división es {division}")
+
+        residuo = a % b
         
+        if residuo == 0:
+            print("La división es exacta")
+
+        else:
+            print("La división es inexacta")
+ 
 main()

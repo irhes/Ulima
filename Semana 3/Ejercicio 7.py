@@ -19,7 +19,8 @@ def main():
 
     elif ahorros == 5000:
         print("Se le pagará un interés del 5%: ", ahorros * (5/100))
-        #el enunciado dice si llega hasta 5000, en el anterior de 1000 a mas, por eso lo tome asi
+        # el enunciado dice si llega hasta 5000, en el anterior de 
+        # 1000 a mas, por eso lo tome asi
 
     else:  
         print("Se le pagará un interés del 8%: ", ahorros * (8/100))
